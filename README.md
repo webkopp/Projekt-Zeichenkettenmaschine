@@ -14,7 +14,7 @@ CSS3
 JavaScript
 
 GitHub Live-Vorschau
-Du findest eine Live Vorschau auf GitHub: GitHub Live Vorschau
+Du findest eine Live Vorschau auf GitHub: https://webkopp.github.io/Projekt-Zeichenkettenmaschine/
 
 GitHub-Repository
 Du findest das gesamte Projekt auf GitHub: https://github.com/webkopp/Projekt-Zeichenkettenmaschine
