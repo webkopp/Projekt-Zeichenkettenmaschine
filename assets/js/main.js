@@ -13,7 +13,6 @@ const nancy = () => {
     let out2 = document.querySelector("#outi2")
 
     let atIndex = text1.indexOf(text2)
-
     let chain1 = text1.slice(0, atIndex)
     let chain2 = text1.slice(atIndex)
     let chain3 = text1.slice(0, atIndex +1)
