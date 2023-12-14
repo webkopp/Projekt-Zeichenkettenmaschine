@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>probjekt-011-zeichenketten</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <div class="box" return false>
+            <h1>Zeichen ketten trennungs maschine</h1>
+            <label for="">Zu trennende Zeichenkette</label>
+            <input type="text" name="chain" id="chain" placeholder="Heute ist ein super Projekttag">
+            <label for="">Trennen bei Zeichenkette</label>
+            <input type="text" name="letter" id="letter" placeholder="Buchstabe">
+
+            <div>
+                <input type="radio" name="radio" id="before" class="checki">
+                <label for="before">davor trennen</label>
+                <input type="radio" name="radio" id="behind" class="checki">
+                <label for="behind">danach trennen</label>
+                <input type="submit" value="Hier klicken" onclick="changeLetter()">
+            </div>
+
+            <div class="changeLetter">
+                <h2>Ausgabe</h2>
+                <p class="chainA" id="output"></p>
+                <p class="chainB" id="output"></p>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
